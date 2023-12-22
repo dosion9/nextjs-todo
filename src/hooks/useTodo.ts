@@ -1,6 +1,13 @@
 import { useState } from "react";
-
+import { v4 as uuidv4 } from "uuid";
 export const useTodo = () => {
-  const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
+  const createTodo = () => {};
+
+  const getTodoList = () => {};
+
+  const getTodo = () => {};
+
+  const updateTodo = () => {};
+
+  const deleteTodo = () => {};
 };

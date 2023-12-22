@@ -12,10 +12,7 @@ export const TodoForm = () => {
     console.log(1);
   };
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="flex flex-col gap-5 p-4 border-yellow-500 border-2 rounded"
-    >
+    <form onSubmit={handleSubmit} className="flex flex-col gap-5 p-4 border-yellow-500 border-2 rounded">
       <fieldset>
         <label htmlFor="todo__form-id" className="block mb-2 font-bold">
           Todo 제목
